@@ -4,16 +4,35 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <title>WEB PAGE</title>
     <style>
+      /* universal selector */
+      *{
+         color: lightgrey;
+         margin: 0;
+      }
       /* element selector */
+
+      body{
+         background-color: aqua;
+      }
       p {
         color: green ;
+        font-size: 16px;
+        text-align: center;
+        
+        
+      }
+      .box{
+         color: green ;
         font-size: 16px;
         border :1px solid green;
         padding :20px;
         margin: 10px;
         box-sizing: border-box;
+        width: 300px;
+        height : 100px;
+
       }
       /* id selector */
       
@@ -26,15 +45,48 @@
         color: red;
         font-size: 16px;
       }
+      div>p {
+        color: pink;
+        font-size: 14px;
+      }
+       /* CSS UNITS */
+     .css-unit {
+      font-size: 2rem; 
+      background-color: hotpink;
+      height: 20vh;
+      width: 90vw;
+
+     }
+     /* CSS BOX MODEL */
+     .container {
+      width:800px;
+      margin: auto auto;
+      /* border: 5px dotted black; */
+      /* border: 5px dashed black; */
+      border: 5px double black;
+     }
+
     </style>
     
     
+    
+
 </head>
 <body>
+   <h1 class="box">My college</h1>
+   <div id="div1">
+      <h1 class="container">
+         hello my name is prince nautiyal.
+      </h1>
+      <div>
+         <p class="css-unit"> i am a web developer and i am learning html, css and javascript. </p>
+         <strong>lets begin the journey!</strong>
+      </div>
+   </div>
 
-    <h1>My college</h1>
-    <p id ="intro" class="note">Welcome to my awesome college!</p>
-    <p style="color: purple;">This is a simple paragraph about my college.</p>
+    
+    <p id ="intro" >Welcome to my awesome college!</p>
+    <p style="color: purple;" >This is a simple paragraph about my college.</p>
     <p id="intro">We offer various courses and programs to help students achieve their academic goals.</p>
     
     <video width="320" height="240" controls>
