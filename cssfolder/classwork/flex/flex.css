@@ -1,9 +1,15 @@
 .container{
             display:flex;
-            flex-direction: row;
+            flex-direction: column;
             background-color: blue;
             gap: 20px;
         }
+        /* .container{
+            display:flex;
+            flex-direction: row;
+            background-color: blue;
+            gap: 20px;
+        } */
         .container div {
         
             background-color:yellow;
