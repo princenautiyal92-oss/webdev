@@ -3,6 +3,7 @@
             flex-direction: column;
             background-color: blue;
             gap: 20px;
+            /* width:300px; */
         }
         /* .container{
             display:flex;
